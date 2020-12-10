@@ -1,7 +1,4 @@
-from filehandler import splitFileByNewLine
-
-def convertToInt(data):
-  return [int(x) for x in splitFileByNewLine(data)]
+from filehandler import splitFileByNewLine, convertToInt
   
 def part1(data):
   values = convertToInt(data)

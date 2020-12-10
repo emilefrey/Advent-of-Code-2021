@@ -5,3 +5,6 @@ def splitFileByNewLine(file_contents):
 def splitFileByBlankLine(file_contents):
   contents_split = file_contents.split("\n\n")
   return contents_split
+  
+def convertToInt(data):
+  return [int(x) for x in splitFileByNewLine(data)]
