@@ -66,7 +66,7 @@ def get_data(day):
     return data
 
 
-def run(day, year=2020):
+def run(day, year=2021):
     print(f"AOC {year} Day {day}")
 
     mod = __import__(format_filename(day))
