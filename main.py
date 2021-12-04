@@ -1,7 +1,8 @@
 # Repl.it AOC Python Runner
 import runner
-#day = runner.get_day(max_day=25)
-runner.run(day=3)
+max_day = 3
+# day = runner.get_day(max_day=max_day)
+runner.run(4)
 
 # Instructions:
 # For each day, create a new python file and a puzzle input file consisting
